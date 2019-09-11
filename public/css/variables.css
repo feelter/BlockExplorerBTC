@@ -1,0 +1,11 @@
+/*********** Button COLORS MIXNS ****************/
+/*********** OPACITY COLORS MIXNS ****************/
+/* Black opacity mixin for background, Use @include opacity-black(0.5); where 0.5 is the opacity */
+/* Black opacity mixin for text color, Use @include opacity-black-text(0.5); where 0.5 is the opacity */
+/* Black opacity mixin for border color, Use @include opacity-black-border(0.5); where 0.5 is the opacity */
+/* White opacity mixin for text color, Use @include opacity-white-text(0.5); where 0.5 is the opacity */
+/* White opacity mixin for text color, Use @include opacity-white(0.5); where 0.5 is the opacity */
+/* White opacity mixin for text color, Use @include opacity-white-text(0.5); where 0.5 is the opacity */
+/* Black opacity mixin for background, Use @include opacity-black(0.5); where 0.5 is the opacity */
+
+/*# sourceMappingURL=variables.css.map */

@@ -1,0 +1,519 @@
+/* responsive styles for laptop */
+@media (max-width:1139px){
+	.container{
+		width: 950px;
+	}
+header .header-top .menu .header-form{
+	width: 260px;
+}
+.select-list .select-one{
+	width: 50%;
+}
+header .header-top .menu .header-form .chain-select:after {
+    top: 11px;
+}
+
+/*index page start here*/
+.home-bg-clr .home-bg header .menu nav ul li{
+    margin-right: 57px;
+}
+
+
+
+/*index page end here*/
+
+
+
+
+
+
+
+}
+/* responsive styles for tablet/ipad */
+@media (max-width:979px){
+	.container{
+		width: 94%;
+	}
+header .header-top .logo {
+    width: 15%;
+    float: left;
+    margin: 10px 0 0;
+}
+header .header-top .menu .men-icon {
+    margin: 0 0 0 10px;
+}
+header .header-top .logo  a img{
+	width: 120px;
+}
+header .header-top .menu {
+    float: right;
+    width:82%;
+    padding: 0;
+}
+header .header-top .menu .header-form {
+    width: 220px;
+}
+header .header-top {
+    padding: 20px 0 20px;
+}
+header .header-top .menu nav{
+	padding:10px 0 0;
+	margin: 0;
+}
+.header_bottom .header-btm .header-btm-lft img{
+	width: 40px;
+}
+.header_bottom .header-btm .header-btm-lft .btm-lft-info h2{
+	font-size: 20px;
+}
+.header_bottom .header-btm .header-btm-lft .btm-lft-info p {
+    font-size: 12px;
+}
+.header_bottom .header-btm .header-btm-rgt ul li{
+	    padding: 6px 8px;
+    margin-left: 12px;
+}
+.header_bottom .header-btm .header-btm-rgt ul li a .fa {
+    font-size: 12px;
+}
+header .header-top .menu .header-form .chain-select .dd .ddTitle img {
+    margin: 0 15px 0 5px;
+}
+.header_bottom .header-btm .header-btm-rgt {
+    padding: 10px 0 0;
+    margin: 0px;
+}
+.accout-page header {
+    margin-bottom: 20px;
+}
+.header_bottom {
+    padding:104px 0 0;
+}
+.graph-blk{
+	padding: 40px 0px;
+}
+.graph-blk .rgt-graph-blk .balance-overview h4{
+	font-size: 12px;
+}
+.graph-blk .rgt-graph-blk .balance-overview ul li{
+	margin-left: 0px;
+}
+.graph-blk .lft-graph-blk ul li h6{
+	margin-bottom: 10px;
+}
+.graph-blk .lft-graph-blk ul li p {
+    font-size: 20px;
+}
+.graph-blk .lft-graph-blk ul li {
+    margin-bottom: 36px;
+}
+.account-tabs .account-tab-info .account-tab-in-head .select-list .select-one {
+    width: 150px;
+}
+.footer-bg{
+	padding: 40px 0 25px;
+}
+.account-footer .footer-top {
+    padding: 0 0 45px;
+    margin-bottom: 25px;
+        text-align: center;
+}
+.account-tabs .account-tab-info .data-table {
+    margin-bottom: 30px;
+}
+
+/*index page start here*/
+.home-bg-clr .home-bg header .menu nav ul li {
+    margin-right: 20px;
+}
+.chain-blk .chainblk-info{
+	width: 730px;
+}
+footer .ftr-lft p {
+    font-size: 15px;
+}
+/*indexpage end here*/
+
+
+
+
+
+
+}
+/* responsive styles for mobile */
+@media (max-width:767px){
+	.container{
+		width: 90%;
+	}
+header .header-top .menu nav{
+	display: none;
+	float: none;
+	width: 100%;
+	background: #fff;
+	padding: 0;
+	position: relative;
+    top: -24px;
+}
+
+header .header-top .menu{
+	width: 100%;
+}
+header .header-top .logo{
+	width: 100%;
+	    padding-bottom: 25px;
+}
+.header-form {
+    width: 100%;
+}
+.accout-page header {
+    position:static;
+}
+.header_bottom {
+    padding:0;
+}
+.header_bottom .header-btm {
+    margin: 0 0 30px;
+}
+.header_bottom .header-btm .header-btm-lft img {
+    width: 36px;
+    float: left;
+    margin-right: 10px;
+}
+.header_bottom .header-btm .header-btm-rgt ul{
+	float: none;
+	text-align: center;
+}
+.header_bottom .header-btm .header-btm-rgt ul li {
+    float: none;
+    display: inline-block;
+}
+.header_bottom .header-btm .header-btm-rgt ul li:first-child{
+	margin-left: 0px;
+}
+.header_bottom .header-btm .header-btm-lft {
+    padding: 0px;
+    margin: 0 auto;
+    width: 300px;
+    float: none;
+}
+.header_bottom .header-btm .header-btm-lft .btm-lft-info h2 {
+    font-size: 17px;
+}
+.header_bottom .header-btm .header-btm-lft .btm-lft-info p {
+    font-size: 11px;
+}
+.header_bottom .header-btm .header-btm-rgt {
+    padding: 20px 0 0;
+    margin: 0px;
+}
+.graph-blk .lft-graph-blk ul li h6{
+	padding-bottom: 0px;
+}
+.graph-blk .rgt-graph-blk .balance-overview ul li{
+	padding: 0 10px;
+}
+.graph-blk .rgt-graph-blk .balance-overview h4 {
+    font-size: 12px;
+    margin-bottom: 30px;
+    display: block;
+    float: none;
+    text-align: center;	
+}
+.graph-blk .rgt-graph-blk .balance-overview ul {
+    display: block;
+    float: none;
+    text-align: center;
+}
+.account-tabs .account-tab-head ul li a {
+    font-size: 12px;
+}
+.account-tabs .account-tab-head ul li {
+    margin-right: 20px;
+}
+.account-tabs .account-tab-head ul li:last-child{
+	margin-right: 0px;
+}
+.account-tabs .account-tab-head{
+	padding: 18px 0px;
+}
+.account-tabs .account-tab-head ul li.active:after {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #ffffff;
+    position: absolute;
+    bottom: -18px;
+    top: auto;
+}
+.account-tabs .account-tab-info .account-tab-in-head {
+    width:320px;
+    float: none;
+    margin: 0 auto 40px;
+}
+.account-tabs .account-tab-info .account-tab-in-head .select-list{
+width: 100%;
+    margin-bottom: 15px;
+    float: none;
+}
+.account-tabs .account-tab-info .account-tab-in-head .address-blk{
+    width: 100%;
+    float: none;
+}
+.account-tabs .account-tab-info .account-tab-in-head .address-blk ul li:first-child{
+	margin-left: 0px;
+}
+.account-tabs .account-tab-info .account-tab-in-head .select-list .select-one {
+    width: 155px;
+    margin: 0 10px 0 0;
+}
+.account-tabs .account-tab-info .account-tab-in-head .select-list .select-two{
+	margin: 0;
+}
+.account-footer .footer-top ul li{
+	width: 100%;
+
+}
+.account-footer .footer-top ul li:nth-child(1), .account-footer .footer-top ul li:nth-child(2),
+.account-footer .footer-top ul li:nth-child(3), .account-footer .footer-top ul li:nth-child(4){
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+footer .ftr-rgt ul{
+	float: none;
+	text-align: center;
+}
+footer .ftr-rgt ul li{
+	float: none;
+}
+footer .ftr-rgt ul li:first-child{
+	margin-left: 0px;
+}
+footer .ftr-lft{
+margin-bottom: 15px;
+}
+footer .ftr-lft p{
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+.menu-icon{
+display: block;
+    position: absolute;
+        top: -60px;
+    right: 0;
+}
+.menu-icon img{
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+header .header-top .menu nav ul li{
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	margin-right:0px;
+	text-align: center;
+}
+header .header-top .menu nav ul li a{
+	text-align: center;
+    padding: 3px 0;
+    display: block;
+}
+.men-icon{
+position: absolute;
+    right: 35px;
+    bottom: 0;
+    top: -65px;
+}
+
+
+
+
+/*index page start here*/
+.home-bg-clr .home-bg header .menu nav{
+	display: none;
+    float: none;
+    width: 100%;
+    background: #fff;
+    padding:20px 0;
+}
+
+.home-bg-clr .home-bg header .menu nav ul li a{
+    color:#26285a;
+    padding: 5px 0;
+    display: block;
+}
+.home-bg-clr .home-bg .menu-icon {
+    display: block;
+    position: absolute;
+    top: -27px;
+    right: 0px;
+}
+.search{
+	position: absolute;
+       right: 35px;
+    top: -25px;
+
+}
+
+.chain-blk .chainblk-info .chain-form .chain-select .dd {
+    padding:12px 0 26px;
+}
+.chain-blk .chainblk-info .chain-form .chain-select .dd .ddTitle img {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+}
+.chain-blk .chainblk-info .chain-form .chain-select .dd .ddTitle .ddlabel {
+    line-height:16px;
+    font-size: 11px;
+}
+.chain-blk .chainblk-info .chain-form .chain-select .ddcommon .ddArrow {
+    right: 5px;
+    width: 14px;
+    height: 9px;
+  }
+  .chain-blk .chainblk-info .chain-form .chain-select .ddChild {
+    top: 38px !important;
+}
+.chain-blk .chainblk-info .chain-form .chain-select .ddChild li img{
+	width: 15px;
+    height: 15px;
+    margin:0 4px 0 0;
+}
+.chain-blk .chainblk-info .chain-form .chain-select .ddChild li .ddlabel{
+	line-height:16px;
+    font-size: 11px;
+}
+
+.home-bg-clr .home-bg header .menu nav ul li{
+		display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	margin-right:0px;
+	text-align: center;
+}
+.chain-blk .chainblk-info{
+	width: 100%;
+}
+footer{
+	    height: 130px;
+		    bottom: 10px;
+}
+footer .ftr-lft p{
+	text-align: center;
+}
+footer .ftr-lft a{
+	display: block;
+	text-align: center;
+	padding-bottom: 10px;
+        line-height: 24px;
+}
+.chain-blk .chainblk-info h1{
+	font-size: 25px;
+	padding-bottom: 25px;
+}
+.home-bg-clr .home-bg header {
+    padding: 20px 0 0;
+}
+.chain-blk .chainblk-info .chain-form .chain-select{
+	width: 40%;
+}
+.chain-blk .chainblk-info .chain-form input[type="text"]{
+width: 60%;
+    font-size: 11px;
+    padding: 10px 3px 9px 22px;
+    background-size: 14px;
+    background-position: 5px center;
+}
+.chain-form .nice-select{
+	font-size: 12px;
+}
+
+header .header-top .menu .header-form{
+width: 100%;
+    display: block;
+    float: left;
+}
+
+}
+
+@media (min-width:768px){
+header .header-top .menu nav{
+    display: block !important;
+}
+}
+
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+
+.home-bg-clr .home-bg{
+	background: url(../images/home-bg@2x.png) no-repeat; 
+	background-size: cover;
+}
+.chain-blk .chainblk-info .chain-form .chain-select .ddcommon .ddArrow {
+    width: 14px;
+    height: 16px;
+    background: url(../images/drop-arrow@2x.png) no-repeat;
+	background-size: contain;
+}
+header .header-top .menu .header-form .chain-select .ddcommon .ddArrow {
+    right: 14px;
+    width: 10px;
+    height: 10px;
+    background: url(../images/drop-arrow@2x.png) no-repeat;
+	background-size: contain;
+}
+.graph-blk .lft-graph-blk ul li:nth-child(1){
+	background: url(../images/coin-icon1@2x.png) no-repeat; 
+	background-size:57px;
+    width: 100%;
+    height: 57px;
+}
+.graph-blk .lft-graph-blk ul li:nth-child(2){
+	background: url(../images/coin-icon2@2x.png) no-repeat; 
+	background-size:57px;
+    width: 100%;
+    height: 57px;
+}
+.graph-blk .lft-graph-blk ul li:nth-child(31){
+	background: url(../images/coin-icon3@2x.png) no-repeat; 
+	background-size:57px;
+    width: 100%;
+    height: 57px;
+}
+.graph-blk .lft-graph-blk ul li:nth-child(4){
+	background: url(../images/coin-icon4@2x.png) no-repeat; 
+	background-size:57px;
+    width: 100%;
+    height: 57px;
+}
+.account-tabs .account-tab-info .account-tab-in-head .select-list .select-one .ddcommon .ddArrow {
+    width: 16px;
+    height: 16px;
+    background: url(../images/drop-arrow@2x.png) no-repeat;
+	background-size: contain;
+}
+.footer-bg {
+    background: url(../images/footer-bg@2x.png) no-repeat;
+	background-size: cover;
+}
+.balance-overview {
+    margin: 0 0 20px;
+    display: block;
+}
+.home_icon{
+	
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
